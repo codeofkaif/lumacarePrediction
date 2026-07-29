@@ -39,14 +39,4 @@ Windows: use `venv\\Scripts\\activate` instead of `source ...`. The app uses the
 - Training dataset: `meddata.csv` (1338 rows, no missing values according to the notebook).
 - Example metrics from the notebook: R² ≈ 0.863, MAE ≈ 2528, RMSE ≈ 4604.
 
-## Try asking
-- "How exactly was insurance_model.pkl trained — what hyperparameters and preprocessing are in medpro.ipynb?"
-- "Can you add input validation and clearer error messages for user inputs in app.py (e.g., enforce realistic BMI/age ranges)?"
-- "Can we expose feature importances or a CSV of predictions vs actuals in the app's Model & accuracy page?"
 
----
-
-If you'd like, I can also:
-- Add a short Hindi description at the top.
-- Update app.py to improve input validation or add a feature-importance view.
-- Open a PR with suggested code changes. Just tell me which you'd prefer.
